@@ -1,0 +1,528 @@
+body {
+    overflow-x: hidden;
+    font-family: "Montserrat";
+}
+
+nav {
+    box-sizing: border-box;
+    padding-left: 10px !important;
+}
+
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+#title a {
+    color: #fff;
+}
+
+li a:hover {
+    opacity: 0.9;
+}
+
+li a:active {
+    text-decoration: underline;
+}
+
+.disabled1 {
+    opacity: 0.4;
+}
+
+.title1 {
+    font-weight: 600;
+    font-size: 3em;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+
+
+/* ------ */
+
+
+.margin-top20 {
+    margin-top: 5em;
+}
+
+.title-txt {
+    margin-top: 10em;
+    box-sizing: border-box;
+    padding-left: 30px ;
+}
+
+
+.title-img img{
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    height: 500px;
+}
+
+.title-txt h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+
+.title-txt button {
+    box-sizing: border-box;
+    padding-bottom: 3px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: .7s background-color, .7s color;
+    -webkit-transition: .7s background-color, .7s color;
+    -moz-transition: .7s background-color, .7s color;
+    -ms-transition: .7s background-color, .7s color;
+    -o-transition: .7s background-color, .7s color;
+    padding-bottom: 8px;
+    margin-left: 30px;
+    margin-top: 5%;
+    width: 140px;
+}
+
+.title-txt button:last-child {
+    margin-left: 10px;
+    background-color: rgb(45, 45, 45);
+    border: 1px solid #2F3239;
+}
+
+.title-txt button:hover {
+    background-color: black;
+    color: #FFF;
+} 
+
+.title-txt button:last-child:hover {
+    background-color: #e2e2e2;
+    color: #2F3239;
+}
+
+
+.Features div {
+    text-align: center;
+    margin-top: 7em;
+    margin-bottom: 102px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    transition: 0.8s background-color;
+    -webkit-transition: 0.8s background-color;
+    -moz-transition: 0.8s background-color;
+    -ms-transition: 0.8s background-color;
+    -o-transition: 0.8s background-color;
+}
+
+.Features div:hover {
+
+    background-color: #e6e3e3;
+
+}
+
+.Features div img:hover {
+    color: #ff4c68;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.Features div h3 {
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.Features div p {
+    color: #8f8f8f;
+}
+
+
+
+#testimonials {
+    background-color: #ff4c68;
+    padding: 8% 10% 5%;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+}
+
+#testimonials div div h2{
+
+    font-weight: bold;
+    font-size: 2.7em;
+    line-height: 1.5em;
+}
+
+
+#testimonials div .second {
+
+    padding-bottom: 4.05em;
+}
+
+#testimonials div div img {
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    width: 6%;
+    height: 6%;
+    margin: 20px;
+}
+
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#press img {
+    width: 13%;
+}
+
+#pricing {
+    text-align: center;
+    padding-top: 5em;
+}
+
+#pricing >h1 {
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    letter-spacing: 2px;
+    
+}
+
+#pricing >p {
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #89898D;
+    margin-bottom: 3em;
+    font-size: 1.2em;
+}
+
+
+
+
+.cards {
+    text-align: center;
+    border: 2px solid #e0e0e0;
+    border-radius: 7px;
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px; 
+    width: 29.3%;                   /* 33.3%  */
+    margin-left: 3%;
+}
+
+.card3 {
+    margin-right: 3%;
+}
+
+.cards h3 {
+    background-color: #F7F3F8;
+    padding: 10px;
+    border-bottom: 2px solid #e0e0e0;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.cards h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.cards p {
+
+    color: #89898D;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.cards button {
+    margin: 10px auto;
+    font-weight: 900;
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 70%;
+    
+}
+
+
+#cta {
+
+    background-color: #ff4c68;
+    margin-top: 60px;
+    padding: 7em;
+    text-align: center;
+}
+
+#cta h3 {
+
+    color: #FFF;
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3em;
+    line-height: 1.5em;
+    margin-bottom: 34px;
+}
+
+
+#cta .bt {
+
+    background-color: #343A40;
+    color: #FFF;
+    width: 15%;
+}
+
+#cta .bt:hover {
+
+    background-color: #272c31;
+}
+
+
+#cta .bt2 {
+
+    background-color: #fff;
+    color: #22252A;
+    border: none;
+    width: 15%;
+    margin-left: 20px;
+}
+
+#cta .bt2:hover {
+
+    background-color: #d7d7d7;
+    color: #000;
+}
+
+#footer {
+    padding: 5%;
+    text-align: center;
+}
+
+#footer a {
+    color: #2D3035;
+    margin: .4em;
+}
+
+#footer a:hover {
+    color: #7a7d81;
+}
+
+#footer p {
+    color: #98918e;
+    margin-top: .3em;
+}
+
+/* ---- @media ---- */
+
+
+@media (min-width:767.9px) and (max-width: 991.9px) {
+
+    #navbarSupportedContent ul{
+
+        text-align: center;
+    }
+
+    .title1 {
+        text-align: center;
+        margin-left: 25%;
+    }
+
+    .title-sec {
+        text-align: center;
+        margin-top: -100px;
+    }
+
+    .title-txt h1 {
+        margin-bottom: 40px;
+    }
+    .title-txt button {
+
+        margin: 10px 0 80px;
+    }
+
+    .title-img img{
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        
+}
+
+    .br {
+        display: none;
+    }
+
+    .Features div:not(:first-child) {
+        margin-top: 1em;
+        padding-bottom: 2em;
+    }
+    .Features div:not(:last-child) {
+        margin-bottom: 2em;
+        padding-bottom: 3em;
+    }
+
+
+    #testimonials div .second {
+
+        padding-bottom: 0;
+    }
+    
+    #testimonials div div h2 {
+
+        font-size: 2.3em;
+    }
+    
+    .cards {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .card1 {
+        
+        width: 47.5%;
+        margin-left: 2.5%;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    
+    .card2 {
+
+        width: 47.5%;
+        margin-right: 2.5%;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    
+    .card3 {
+
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+
+    #cta h3 {
+        font-size: 2.2em;
+    }
+
+    #cta .bt {
+
+        width: 50%;
+    }
+    
+    
+    #cta .bt2 {
+
+        width: 50%;
+        margin: 20px 0;
+    }
+
+}
+
+@media (max-width: 767.9px) {
+
+    #navbarSupportedContent ul{
+
+        text-align: center;
+    }
+    
+    .title1 {
+        text-align: center;
+    }
+
+    .title-sec {
+        text-align: center;
+        margin-top: -100px;
+    }
+
+    .title-txt h1 {
+        margin-bottom: 40px;
+        font-size: 1.5rem;
+    }
+
+    .title-txt button {
+
+        margin: 10px 0 30px;
+
+    }
+
+    .title-img img{
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+}
+    .br {
+        display: none;
+    }
+
+    .Features div {
+        margin-top: 60px;
+        padding-bottom: 0;
+    }
+
+    .Features div:not(:first-child) {
+        margin-top: 1em;
+        padding-bottom: 2em;
+    }
+    .Features div:not(:last-child) {
+        margin-bottom: 2em;
+        padding-bottom: 3em;
+    }
+
+    #testimonials div .first h2 {
+
+        font-size: 2.3em;
+    }
+
+    #testimonials div .second {
+
+        padding-bottom: 0;
+    }
+
+    #testimonials div .second h2 {
+
+        font-size: 2.3em;
+    }
+
+    .card-container {
+
+        display: block;
+    }
+
+    .cards {
+        width: 90%;
+        margin: 0 5% 1%;
+    }
+
+    #cta h3 {
+        font-size: 1.5em;
+    }
+
+    #cta .bt {
+
+        width: 100%;
+    }
+    
+    
+    #cta .bt2 {
+
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    
+}
